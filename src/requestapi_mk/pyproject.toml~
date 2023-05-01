@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "requestapi_package_mk"
+version = "0.0.1"
+authors = [
+  { name="Fernando Cano", email="fcanocollab@gmail.com" }
+]
+description = "A high performance async restful api to pipeline/throttle requests downstream http endpoint."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programmign Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/fernandocano/requestapi"
+"Bug Tracker" = "https://github.com/fernandocano/requestapi/issues"
